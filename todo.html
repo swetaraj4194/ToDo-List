@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link href="todo.css" rel=stylesheet>
+</head>
+
+  <body>
+    
+    <div class="container">
+
+     <p class="head"></p>
+        
+          <h1>ToDoList</h1>
+       
+     <form>
+       <input type="text" id="formInput" placeholder="What needs to be done?"/>
+     </form>
+
+        <br><br>
+
+     <ul class="list">
+
+       <li class="todo pending">
+        <label><input type="checkbox"/> Sweep the floor</label></li>
+        <br>
+        
+
+      <li class="todo finished">
+        <label><input type="checkbox" checked /> Dust the vases</label>
+      <br>
+
+    </ul>
+
+
+    <div class="footer">
+
+       Todo:<span class="todos">2</span>
+       &#8226; Done:<span class="done"> 5 </span>
+       &#8226;Total:<span class="total"> 4</span>
+
+       <a href="#" id="clean-up"> &#160;<b>Clean up</b></a>
+
+     </div>
+
+    </div>
+
+
+<script src="todo.js"  type="text/javascript"></script>
+</body>
+</html>
